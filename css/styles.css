@@ -1,0 +1,144 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Header & Navigation Bar*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.main{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+.main a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+ ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#branding{
+	float: left;
+}
+
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	background: url('../img/img1.jpg') repeat ;
+	text-align: center;
+	color: #204C4F;
+}
+
+#showcase h1{
+	font-size: 45px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+
+#branding h1{
+	margin: 0;
+}
+
+.main .highlight, .main .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+.main a:hover{
+	color: #e8491d;
+	text-decoration: none;
+}
+
+.nav{
+	float: right;
+	margin-top: 10px;
+}
+
+/* SECTIon*/
+
+/**Boxes*/
+#boxes{
+	margin-top: 15px;
+}
+
+.box{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+
+.box img{
+	width: 190px;
+}
+
+/* Footer */
+
+footer {
+	padding:20px;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	background: #e8491d;
+}
+
+/* Login  */
+
+.link{
+	text-align: center;
+}
+
+
+/*  Blog  */
+.post-box{
+	max-width: 97%;
+	max-height: 55%;
+	text-align: left;
+	overflow: hidden;
+	padding-left: 10px;
+	margin-top: 18px;
+	background-color: orange;
+	padding: 25px;
+
+}
+.title{
+	font-size: 20px;
+}
+.created{
+	font-size: 15px;
+}
+.body{
+	font-size: 15px;
+	max-height: 50px;
+	overflow: hidden;
+	text-align: justify;
+}
+
+/* Read More */
+.body1{
+	font-size: 18px;
+	text-align: justify;
+}
